@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.homepage{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    height: 13%;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headwrap{
+    width: 85%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    width: 7%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.image img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.leftl{
+    width: 80%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    font-family: "raleway";
+    font-weight: 600;
+    cursor: pointer;
+    /* transition: 0.3s ease ease-in; */
+}
+.leftl div:hover{
+    color: rgb(175, 169, 169);
+}
+.lgbtn{
+    width: 10%;
+    height: 35%;
+    background-color: white;
+    cursor: pointer;
+    font-family: "raleway";
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+}
+.lgbtn:hover{
+    color: white;
+    background-color: grey;
+}
+.landmain{
+    width: 90%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.leftsid{
+    width: 50%;
+    height: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+  
+}
+.aliig{
+    width: 70%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     /* gap: 35px; */
+     font-weight: 600;
+     font-family: "raleway";
+}
+.leftsid h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "raleway";
+}
+.leftsid span{
+    color: blue;
+    font-family: cursive;
+}
+.leftsid h2{
+    font-size: 45px;
+    font-family: "raleway";
+}
+.leftsid h3{
+    /* font-size: 45px; */
+    font-family: "raleway";
+}
+.Rimage{
+    width: 60%;
+    height: 70%;
+    /* background-color: red; */
+    border-radius: 5px;
+}
+.Rimage img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 5px;
+}
